@@ -1,0 +1,314 @@
+/* ================================ Start Header ========================== */
+
+/* Navbar */
+header nav .cl {
+    background: -webkit-linear-gradient(#6cfec6, #44d7cd);
+    background: -o-linear-gradient(#6cfec6, #44d7cd);
+    background: -moz-linear-gradient(#6cfec6, #44d7cd);
+    background: linear-gradient(#6cfec6, #44d7cd);
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none
+}
+
+header .navbar-light .navbar-brand, header .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    transition: all 0.2s ease-in-out
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #000
+}
+
+header .navbar-light .navbar-nav .active>.nav-link {
+    background: -webkit-linear-gradient(#6cfec6, #44d7cd);
+    background: -o-linear-gradient(#6cfec6, #44d7cd);
+    background: -moz-linear-gradient(#6cfec6, #44d7cd);
+    background: linear-gradient(#6cfec6, #44d7cd);
+    padding: 8px 15px;
+    border-radius: 15px
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    background: -webkit-linear-gradient(#6cfec6, #44d7cd);
+    background: -o-linear-gradient(#6cfec6, #44d7cd);
+    background: -moz-linear-gradient(#6cfec6, #44d7cd);
+    background: linear-gradient(#6cfec6, #44d7cd);
+    border-radius: 15px;
+    padding: 8px 15px;
+    color: #000
+}
+
+header .navbar-nav li {
+    margin: 0 15px;
+}
+
+header .navbar-light .navbar-toggler {
+    border: none
+}
+
+/* Stadt Info */
+.info {
+    margin-top: 15px;
+    padding: 200px 10px;
+    background: -webkit-linear-gradient(#6cfec6, #44d7cd);
+    background: -o-linear-gradient(#6cfec6, #44d7cd);
+    background: -moz-linear-gradient(#6cfec6, #44d7cd);
+    background: linear-gradient(#6cfec6, #44d7cd);
+    color: #fff
+}
+
+.info h1 {
+    margin-bottom: 50px
+}
+
+.info a {
+    padding: 20px 50px;
+    color: #fff;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#ff6c54, #ff3a58);
+    background: -o-linear-gradient(#ff6c54, #ff3a58);
+    background: -moz-linear-gradient(#ff6c54, #ff3a58);
+    background: linear-gradient(#ff6c54, #ff3a58);
+    border-radius: 15px;
+    display: inline-block
+}
+
+/*========================================== Start Services ===========================*/
+
+#serv .icons {
+    padding: 70px 10px
+}
+
+#serv .icons .col {
+    margin-bottom: 20px
+}
+
+#serv .icons .col i {
+    font-size: 100px;
+    color: #eee;
+    background: -webkit-linear-gradient(#6cfec6, #44d7cd);
+    background: -o-linear-gradient(#6cfec6, #44d7cd);
+    background: -moz-linear-gradient(#6cfec6, #44d7cd);
+    background: linear-gradient(#6cfec6, #44d7cd);
+    padding: 50px;
+    border-radius: 50px
+}
+
+#serv .icons .col h3 {
+    margin-top: 20px;
+    color: #828282
+}
+
+#serv a {
+    padding: 20px 50px;
+    color: #fff;
+    text-decoration: none;
+    background: -webkit-linear-gradient(#ff6c54, #ff3a58);
+    background: -o-linear-gradient(#ff6c54, #ff3a58);
+    background: -moz-linear-gradient(#ff6c54, #ff3a58);
+    background: linear-gradient(#ff6c54, #ff3a58);
+    border-radius: 15px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+#serv .browsers {
+    padding-top: 70px;
+    background: -webkit-linear-gradient(#ff6c54, #ff3a58);
+    background: -o-linear-gradient(#ff6c54, #ff3a58);
+    background: -moz-linear-gradient(#ff6c54, #ff3a58);
+    background: linear-gradient(#ff6c54, #ff3a58);
+    color: #fff
+}
+
+#serv .browsers p {
+    width: 70%;
+    margin: 40px auto;
+    font-size: 1.5em;
+    color: #ffd7d7
+}
+
+#serv .browsers img {
+    display: inline-block;
+    width: 80vw
+}
+
+#serv .phones {
+    padding: 70px 0;
+}
+
+#serv .phones img {
+    width: 55%;
+    height: 100%
+}
+
+#serv .phones .col {
+    margin-bottom: 20px
+}
+
+/*==================================== Start Portfolio ================================*/
+
+#port .works {
+    padding: 70px 10px;
+    background: -webkit-linear-gradient(#6cfec6, #44d7cd);
+    background: -o-linear-gradient(#6cfec6, #44d7cd);
+    background: -moz-linear-gradient(#6cfec6, #44d7cd);
+    background: linear-gradient(#6cfec6, #44d7cd);
+}
+
+#port h2 {
+    color: #fff;
+    margin-bottom: 50px
+}
+
+#port .row {
+    margin-bottom: 20px
+}
+
+#port .row .col {
+    margin-bottom: 20px;
+    padding: 0 10px
+}
+
+#port .row .col .card {
+    transition: all 0.25s ease-in-out
+}
+
+#port .row .col .card:hover {
+    transform: scale(1.05, 1.05)
+}
+
+#port .works i {
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    font-size: 30px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    color: #46d9cc
+}
+
+#port .works i:hover {
+    transform: scale(1.25, 1.25)
+}
+
+#port .stat {
+    padding: 50px 0;
+    background: #424242
+}
+
+#port .stat i {
+    color: #ff3a58;
+    font-size: 70px
+}
+
+#port .stat h3 {
+    margin: 20px 0;
+    color: #fff
+}
+
+#port .stat h5 {
+    color: #44d7cd
+}
+
+/*====================================================== Staet About =========================*/
+#about .first {
+    padding: 70px 0;
+}
+
+#about .first .col {
+    margin-bottom: 20px
+}
+
+#about .first .col img {
+    width: 100%
+}
+
+#about .first .col h3 {
+    margin: 20px 0
+}
+
+#about .first .col p {
+    color: #8c8c8c
+}
+
+#about .clients {
+    background: #44d7cd;
+    padding: 70px 0
+}
+
+#about .clients h2 {
+    margin-bottom: 40px
+}
+
+#about .clients .slider div {
+    padding: 0 15px
+}
+
+#about .clients .slider p {
+    padding: 0 15px;
+    color: #fff;
+    background: #10a59a
+}
+
+/*======================================== Start Contact ===============================*/
+#cont {
+    padding: 70px 0;
+    background: #ff3a58
+}
+
+#cont h2 {
+    color: #fff;
+    margin-bottom: 40px
+}
+
+#cont .row, #cont .row:first-child .col {
+    margin: 10px 0
+}
+
+#cont input, #cont textarea {
+    display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out
+}
+
+#cont textarea {
+    height: 200px;
+    resize: none
+}
+
+#cont input::placeholder, #cont textarea::placeholder {
+    color: #fff
+}
+
+#cont input:focus, #cont textarea:focus {
+    border-color: #964141
+}
+
+#cont .row:last-child input {
+    padding: 10px 0;
+    background: #333;
+    border: none
+}
+
+/*========================================== Start Footer ===============================================*/
+footer {
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    font-size: 20px
+}
+
+footer span {
+    color: #44d7cd
+}
